@@ -1,0 +1,14 @@
+uuid: 651be3be-4af5-479e-b022-4f5d7cde47a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.pantheon_decoupled
+  module:
+    - user
+id: user_add_role_action.pantheon_decoupled
+label: 'Add the Pantheon Decoupled role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: pantheon_decoupled
